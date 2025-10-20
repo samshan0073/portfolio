@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: #0d1b2a;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+header {
+  background: #e63946;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 4px solid #f1c40f;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+#about {
+  text-align: center;
+}
+
+#about p {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.8;
+  color: #f5f5f5;
+  text-align: left;
+  margin: 0;
+}
+
+
+
+
+#about h2, #projects h2 {
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #f1c40f;
+}
+
+#projects {
+  padding: 60px 0 120px 0; 
+}
+
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Sawarabi Mincho', serif;
+  font-size: 2em;
+  color: #f1c40f;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px 40px; 
+  align-items: stretch;
+}
+
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid #e63946;
+  box-shadow: 0 0 20px rgba(230,57,70,0.5);
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  border-color: #f1c40f;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  color: #f1c40f;
+  font-size: 1.1em;
+}
+
+.project-card p {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #f5f5f5;
+  flex-grow: 1;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e63946;
+  color: #fff;
+  border-top: 4px solid #f1c40f;
+  font-size: 0.8em;
+}
+
+
+
+
+
+
